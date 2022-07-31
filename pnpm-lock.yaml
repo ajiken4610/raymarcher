@@ -1,7 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@popperjs/core': ^2.11.5
   '@prettier/plugin-pug': ^2.2.0
+  '@types/three': ^0.143.0
+  bootstrap: ^5.2.0
   nuxt: 3.0.0-rc.6
   prettier: ^2.7.1
   pug: ^3.0.2
@@ -9,7 +12,10 @@ specifiers:
   three: ^0.143.0
 
 devDependencies:
+  '@popperjs/core': 2.11.5
   '@prettier/plugin-pug': 2.2.0_prettier@2.7.1
+  '@types/three': 0.143.0
+  bootstrap: 5.2.0_@popperjs+core@2.11.5
   nuxt: 3.0.0-rc.6_sass@1.54.0
   prettier: 2.7.1
   pug: 3.0.2
@@ -637,6 +643,10 @@ packages:
       - webpack
     dev: true
 
+  /@popperjs/core/2.11.5:
+    resolution: {integrity: sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==}
+    dev: true
+
   /@prettier/plugin-pug/2.2.0_prettier@2.7.1:
     resolution: {integrity: sha512-W5CIXtMauz6xB4b0TeBW1Jxtk2ArggKMwqDHdGOfQ9ahABsttg2YZoQgLytETuo8Gjq0QkaGhAGD1pfDaUOZUQ==}
     engines: {node: '>=14.6.0', npm: '>=6.0.0'}
@@ -782,8 +792,18 @@ packages:
       '@types/node': 18.6.3
     dev: true
 
+  /@types/three/0.143.0:
+    resolution: {integrity: sha512-c5PonXOt8xk5q4ygmyjOX4Ec+FA7gwfdcMT/PveE9xrJs/0DDcf2lJkWrhEcmvx2ZefQCQBcogABnGqB0P4OsA==}
+    dependencies:
+      '@types/webxr': 0.5.0
+    dev: true
+
   /@types/tough-cookie/4.0.2:
     resolution: {integrity: sha512-Q5vtl1W5ue16D+nIaW8JWebSSraJVlK+EthKn7e7UcD4KWsaSJ8BqGPXNaPghgtcn/fhvrN17Tv8ksUsQpiplw==}
+    dev: true
+
+  /@types/webxr/0.5.0:
+    resolution: {integrity: sha512-IUMDPSXnYIbEO2IereEFcgcqfDREOgmbGqtrMpVPpACTU6pltYLwHgVkrnYv0XhWEcjio9sYEfIEzgn3c7nDqA==}
     dev: true
 
   /@vercel/nft/0.20.1:
@@ -1128,6 +1148,14 @@ packages:
 
   /boolbase/1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
+    dev: true
+
+  /bootstrap/5.2.0_@popperjs+core@2.11.5:
+    resolution: {integrity: sha512-qlnS9GL6YZE6Wnef46GxGv1UpGGzAwO0aPL1yOjzDIJpeApeMvqV24iL+pjr2kU4dduoBA9fINKWKgMToobx9A==}
+    peerDependencies:
+      '@popperjs/core': ^2.11.5
+    dependencies:
+      '@popperjs/core': 2.11.5
     dev: true
 
   /brace-expansion/1.1.11:
