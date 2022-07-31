@@ -7,6 +7,11 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.6"
+    "@prettier/plugin-pug": "^2.2.0",
+    "nuxt": "3.0.0-rc.6",
+    "prettier": "^2.7.1",
+    "pug": "^3.0.2",
+    "sass": "^1.54.0",
+    "three": "^0.143.0"
   }
 }
