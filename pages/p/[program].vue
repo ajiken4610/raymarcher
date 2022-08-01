@@ -157,3 +157,9 @@ const save = () => {
   }, 1000);
 };
 </script>
+
+<style scoped lang="scss">
+#container {
+  background-color: black;
+}
+</style>
